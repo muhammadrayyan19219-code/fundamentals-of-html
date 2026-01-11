@@ -1,0 +1,23 @@
+div {
+    border:3px solid lightblue;
+    padding:10px;
+}
+
+.sticky {
+    position:sticky;
+    top:0;
+}
+
+.relative {
+    position:relative;
+    bottom:0px;
+}
+
+.absolute {
+    position:absolute;
+    bottom:0;
+}
+
+.fixed {
+    position:fixed;
+}

@@ -1,0 +1,32 @@
+body {
+    background-color:black ;
+    color:white;
+}
+
+h2 {
+    color:lightblue;
+}
+
+li {
+    color:gold ;
+}
+
+li::before {
+    content:"🚀"
+}
+
+p::first-letter {
+    color:pink ;
+}
+
+a {
+    color:yellow;
+}
+
+a:hover {
+    color:orange;
+}
+
+a::after {
+    content:"🌌";
+}
